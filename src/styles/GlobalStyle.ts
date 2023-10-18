@@ -20,8 +20,17 @@ export default createGlobalStyle`
     }
 
     body {
-        background-color: var(--gray1);
+        background-image: linear-gradient(
+        120deg,
+        #171717 0%,
+        #151515 100%
+    );
+    /* background-color: #151515; */
         color: var(--white);
+    }
+
+    .link {
+        text-decoration: none;
     }
 
 `;

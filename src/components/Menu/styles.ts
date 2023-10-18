@@ -15,6 +15,6 @@ export const Container = styled.li`
   cursor: pointer;
 
   &:hover {
-    background-color: #363636; // Você pode escolher a cor que preferir aqui.
+    background-color: #464646; // Você pode escolher a cor que preferir aqui.
   }
 `;

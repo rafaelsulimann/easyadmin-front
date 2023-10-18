@@ -8,3 +8,7 @@
     --yellow: #E5BD30;
     --purple: #7371FF;
 }
+
+body {
+    background-image: linear-gradient(to right bottom, #323232, #222222);
+}

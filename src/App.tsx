@@ -1,14 +1,17 @@
-import Aside from "./components/Aside"
-import GlobalStyle from "./styles/GlobalStyle"
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./routes/Home";
+import Venda from "./routes/Home/Venda";
 
 function App() {
-
   return (
-    <>
-      <GlobalStyle/>
-      <Aside/>
-    </>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />}>
+          <Route path="/vendas" element={<Venda />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
